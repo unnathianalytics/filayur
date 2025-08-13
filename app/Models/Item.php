@@ -97,8 +97,4 @@ class Item extends Model
 
         return $this->op_stock_qty + $inwardQty - $outwardQty;
     }
-    public function getOpeningStock()
-    {
-        return SerialNumber::where('item_id', $this->id)->whereNull('invoice_item_id')->count();
-    }
 }

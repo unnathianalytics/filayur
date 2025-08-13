@@ -4,5 +4,12 @@
 @source '../../../../resources/views/filament/**/*';
 
 * {
-    border-radius: 5px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+input,
+textarea,
+select {
+    padding: 3px 8px;
 }
