@@ -4,5 +4,5 @@
 @source '../../../../resources/views/filament/**/*';
 
 * {
-    font-size: .9rem !important;
+    border-radius: 5px;
 }
